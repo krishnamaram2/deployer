@@ -20,4 +20,9 @@ for cmd in cmds:
     cmd_output, cmd_error = cmd_execution.communicate()
     print("output of the command", cmd_output)
 
-    
+
+
+#!/usr/bin/env python
+import os
+cmd = "aws configure"
+os.system(cmd)    
